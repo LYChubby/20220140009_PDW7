@@ -1,0 +1,114 @@
+.Profile {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    background-color: black;
+    height: 60vh;
+}
+
+.Gambar > img {
+    width: 500px;
+    height: 700px;
+    border: 5px solid white;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.PDeskripsi {
+    color: white;
+    font-size: 25px;
+    text-align: justify;
+}
+
+.Server {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: gainsboro;
+}
+
+.Server2 {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 50px;
+}
+
+.ldes {
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sosmed {
+    width : 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.ins {
+    text-decoration: none;
+    color: black;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.dis {
+    text-decoration: none;
+    color: black;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.row {
+    width: 100%;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.col-4 {
+    font-size: 30px;
+}
+
+.Gallery {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: gainsboro;
+}
+
+.carousel-item > img {
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-size: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: gainsboro;
+}
+
+.h1 {
+    font-size: 20px;
+}
